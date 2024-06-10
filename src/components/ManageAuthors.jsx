@@ -9,7 +9,7 @@ const ManageAuthors = ({ authors }) => {
                 console.log(authors)
             }
             {authors.length === 0 ? (
-                <p>No authors available. Please add some authors.</p>
+                <p  className='text-center mt-5' style={{ fontSize: 20, fontWeight: 400}}>No authors available. Please add some authors.</p>
             ) : (
                <div className='container card'>
                 <div className='table-responsive'>

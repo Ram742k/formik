@@ -6,7 +6,7 @@ const ManageBooks = ({ books }) => {
         <div>
             <h2 className='text-center mt-5'>Manage Books</h2>
             {books.length === 0 ? (
-                <p>No books available. Please add some books.</p>
+                <p className='text-center mt-5' style={{ fontSize: 20, fontWeight: 400}}>No books available. Please add some books.</p>
             ) : (
               <div className='container card'>
                 <div className='table-responsive'>
